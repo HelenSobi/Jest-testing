@@ -28,7 +28,7 @@ npm install @testing-library/react@latest
 2. check react latest version
 npm install react@latest react-dom@latest
 3. if you want to use `act` Manually Import act from `react` library
-      ### import { act } from 'react';
+      import { act } from 'react';
       act(() => {
       render(<App />); 
       });
